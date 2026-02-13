@@ -1,8 +1,9 @@
 const path = require('path');
 
 const config = {
-  port: process.env.PORT || 3900,
+  port: process.env.PORT || 25565,
   host: process.env.HOST || '0.0.0.0',
+
 
   // Storage
   storagePath: path.join(__dirname, '..', 'media'),
